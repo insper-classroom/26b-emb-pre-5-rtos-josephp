@@ -119,6 +119,7 @@ int main() {
     xTaskCreate(btn_2_task, "BTN_Task 2", 256, NULL, 1, NULL);
 
     vTaskStartScheduler();
+    
 
     while (true)
         ;

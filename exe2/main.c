@@ -88,6 +88,7 @@ int main() {
   xTaskCreate(btn_1_task, "BTN_Task 1", 256, NULL, 1, NULL);
   xTaskCreate(led_2_task, "LED_Task 2", 256, NULL, 1, NULL);
   xTaskCreate(btn_2_task, "BTN_Task 2", 256, NULL, 1, NULL);
+  
 
   vTaskStartScheduler();
 
